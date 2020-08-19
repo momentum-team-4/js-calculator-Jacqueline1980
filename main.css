@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    background-color: deepskyblue;
+    padding: 3rem;
+   text-align: center;
+    border-top: 1px solid darkblue;
+    border-bottom: 1px solid darkblue;
+    border-left: 1px solid darkblue;
+    border-right: 1px solid darkblue;
+
+
+}
+.number {
+    border-block-color: darkblue;
+    border: 1px 1px 1px 1px;
+}
+
+.one{
+    border-block-color: darkblue;
+    border: 1px 1px 1px 1px;
+}
+
