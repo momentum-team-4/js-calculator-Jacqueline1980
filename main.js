@@ -1,5 +1,6 @@
 
-
+const output = document.querySelector('#output')
+ 
 const number1 = document.querySelector(".number1") 
 number1.addEventListener ('click', function () {output.textContent += '1'})
 
@@ -33,3 +34,17 @@ number0.addEventListener ('click', function () {output.textContent += '0'})
 const decimal = document.querySelector(".decimal") 
 decimal.addEventListener ('click', function () {output.textContent += '.'})
 
+const equals = document.querySelector(".equals") 
+equals.addEventListener ('click', function () {output.textContent += '='})
+
+const subtract = document.querySelector(".subtract") 
+subtract.addEventListener ('click', function () {output.textContent += '-'})
+
+const add = document.querySelector(".add") 
+add.addEventListener ('click', function () {output.textContent += '+'})
+
+const divide = document.querySelector(".divide") 
+divide.addEventListener ('click', function () {output.textContent += '/'})
+
+const multiply = document.querySelector(".multiply") 
+multiply.addEventListener ('click', function () {output.textContent += '*'})
